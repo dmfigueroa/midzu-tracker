@@ -1,0 +1,10 @@
+name = "midzu-tracker"
+main = "src/worker.ts"
+compatibility_date = "2023-05-18"
+
+kv_namespaces  = [
+    { binding = "MIDZU", id = "e87b1ab172f14bbf81b3a8f95a587ebc", preview_id = "d3aaacc9948e4c8f8edf1b533f4d0a11" }
+]
+
+[triggers]
+crons = ["0 * * * *"]
