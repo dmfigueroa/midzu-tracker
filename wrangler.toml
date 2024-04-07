@@ -1,5 +1,5 @@
 name = "midzu-tracker"
-main = "src/worker.ts"
+main = "src/worker.js"
 compatibility_date = "2023-05-18"
 
 kv_namespaces  = [
