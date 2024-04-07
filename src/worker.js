@@ -1,4 +1,4 @@
-const streams = ['midzui', 'jhulzui'];
+const streams = /** @type {const} */ (['midzui', 'jhulzui']);
 
 /**
  * Get an access token from Twitch using the environment variables provided by the environment variable
